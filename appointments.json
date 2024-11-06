@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Harry Potter and the Sorcerer&#039;s Stone",
+        "appointment_date": "2002-10-02",
+        "appointment_time": "11:10",
+        "email": "ddddiiii@gmail.com",
+        "gender": "male",
+        "date_of_birth": "2002-10-02",
+        "address": "Mbabane"
+    },
+    {
+        "name": "siya",
+        "appointment_date": "0020-02-02",
+        "appointment_time": "11:51",
+        "email": "kennethmabuza48@gmail.com",
+        "gender": "male",
+        "date_of_birth": "0020-02-02",
+        "address": "Mbabane"
+    },
+    {
+        "name": "Harry Potter and the Sorcerer&#039;s Stone",
+        "appointment_date": "2024-10-03",
+        "appointment_time": "11:49",
+        "email": "kennethmabuza48@gmail.com",
+        "gender": "male",
+        "date_of_birth": "2024-10-03",
+        "address": "Mbabane"
+    },
+    {
+        "name": "Samkeliso",
+        "appointment_date": "2024-10-16",
+        "appointment_time": "09:28",
+        "email": "sigwanesamkeliso@gmail.com",
+        "gender": "Male",
+        "date_of_birth": "2024-10-16",
+        "address": "Matsapha"
+    }
+]

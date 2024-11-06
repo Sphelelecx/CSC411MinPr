@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+<MakeAppointment>
+    <AppointmentRequest>
+        <patient>
+            <FullName>Tony Smith</FullName>
+            <Date>02-june-2024</Date>
+            <Time>11:00</Time>
+        </patient>
+    </AppointmentRequest>
+    <Signup>
+        <FullName>Mary White</FullName>
+        <Email>marywhite@gmail.com</Email>
+        <Gender>Female</Gender>
+        <Date>20-May-1975</Date>
+        <Address>Manzini</Address>
+    </Signup>
+</MakeAppointment>
+</root>

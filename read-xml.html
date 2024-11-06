@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Reading Data from XML File</title>
+        <meta name="viewport" content="witdth=device-width">
+        <link rel="stylesheet" href="main.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Reading Data from XML Files</h1>
+        </header>
+        <main>
+            <ul id="AppointmentRequest"></ul>
+            <ul id="Signup"></ul>
+            <pre id="output"></pre>
+        </main>
+
+            <script>
+                document.addEventListener('DOMContentLoaded', ()=>{
+                    //fetch data as soon as the page is loaded
+                    let url = "Patient.xml";
+                    fetch(url)
+                    .then(response=>response.text())
+                    .then(data=>{
+                        //console.log(data); //string
+                        let parser = new DOMParser();
+                        let xml = parser.parseFromString(data, "application/xml");
+                        document.getElementById('output').tectContent = data;
+                        console.log(xml);
+                        AppointmentList(xml);
+
+                    });
+                })
+                function AppointmentList(x){
+                    let list = document.getElementById('Appointment');
+                    let Appointment = document.getElementsByTagName('appointment');
+                    for (let i=0; i<Appointment.length; i++){
+                        let li = document.createElement('li');
+                        let Appointment = Appointment[i].firstChild.nodeValue;
+                        li.tectContent = Appointment;
+                        list.appendChild(li);
+                    }
+                }
+            </script>
+    
+    </body>
+</html>
